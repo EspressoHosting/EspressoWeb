@@ -2,45 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Cursor */
-.custom-cursor {
-  @apply fixed w-6 h-6 pointer-events-none z-50 transition-transform duration-200 ease-out;
-  mix-blend-mode: normal;
-}
-
-.custom-cursor-dot {
-  @apply fixed w-2 h-2 pointer-events-none z-50 rounded-full transition-transform duration-200 ease-out;
-  mix-blend-mode: normal;
-}
-
-/* Hide default cursor */
-body {
-  @apply cursor-none;
-}
-
-/* Show default cursor on interactive elements */
-a, button, input, textarea, select {
-  @apply cursor-none;
-}
-
 /* Smooth Scroll */
 html {
   scroll-behavior: smooth;
 }
 
-/* Hide cursor on mobile/touch devices */
-@media (hover: none) {
-  .custom-cursor,
-  .custom-cursor-dot {
-    @apply hidden;
-  }
-  
-  body,
-  a,
-  button,
-  input,
-  textarea,
-  select {
-    cursor: auto;
-  }
+/* Interactive Element Styles */
+a, button, input, textarea, select {
+  @apply transition-all duration-300 ease-out cursor-pointer;
+}
+
+a:hover, button:hover {
+  @apply scale-105 text-brown-400;
+}
+
+button:active {
+  @apply scale-95;
+}
+
+input:focus, textarea:focus, select:focus {
+  @apply ring-2 ring-brown-600/50 outline-none transform scale-[1.02];
+}
+
+/* Enhanced hover effects for interactive elements */
+.hover-lift {
+  @apply transition-transform duration-300 ease-out;
+}
+
+.hover-lift:hover {
+  @apply -translate-y-1;
+}
+
+/* Smooth fade effects */
+.fade-enter {
+  @apply transition-opacity duration-300 ease-in;
+}
+
+.fade-enter:hover {
+  @apply opacity-80;
 }

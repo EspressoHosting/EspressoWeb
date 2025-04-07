@@ -5,24 +5,24 @@ import { useState } from 'react';
 const plans = [
   {
     name: 'The Single Shot',
-    price: '€9.99',
+    price: '€3.99',
     features: [
       '2 GB RAM',
-      '2 CPU Cores',
-      '20 GB SSD',
+      '1vcore',
+      '15gb nvme',
       '10 Player Slots',
       'DDoS Protection',
-      '24/7 Support'
+      '24/7 Support (Discord)'
     ],
     icon: <Coffee className="w-6 h-6" />
   },
   {
     name: 'The Double Shot',
-    price: '€19.99',
+    price: '€5.99',
     features: [
       '4 GB RAM',
-      '4 CPU Cores',
-      '50 GB SSD',
+      '2vcore',
+      '30gb nvme',
       '25 Player Slots',
       'DDoS Protection',
       '24/7 Priority Support'
@@ -32,11 +32,11 @@ const plans = [
   },
   {
     name: 'The Latte',
-    price: '€39.99',
+    price: '€9.99',
     features: [
       '8 GB RAM',
-      '6 CPU Cores',
-      '100 GB SSD',
+      '3vcore',
+      '50 GB SSD',
       '50 Player Slots',
       'DDoS Protection',
       '24/7 VIP Support'
