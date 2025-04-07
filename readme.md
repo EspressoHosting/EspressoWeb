@@ -35,7 +35,7 @@ Espresso Hosting delivers lightning-fast, reliable game server hosting strategic
 ### Matei (aka. DevMatei)
 
 - 🌐 [Website](https://devmatei.is-a.dev)
-- 🐦 [Twitter]- 🐦 [Twitter](https://x.com/TheDevMatei)
+- 🐦 [Twitter](https://x.com/TheDevMatei)
 - 📧 [Email](mailto:contact@devmatei.is-a.dev)
 
 
