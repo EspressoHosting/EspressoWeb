@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Cursor */
+.custom-cursor {
+  @apply fixed w-6 h-6 pointer-events-none z-50 transition-transform duration-200 ease-out;
+  mix-blend-mode: normal;
+}
+
+.custom-cursor-dot {
+  @apply fixed w-2 h-2 pointer-events-none z-50 rounded-full transition-transform duration-200 ease-out;
+  mix-blend-mode: normal;
+}
+
+/* Hide default cursor */
+body {
+  @apply cursor-none;
+}
+
+/* Show default cursor on interactive elements */
+a, button, input, textarea, select {
+  @apply cursor-none;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide cursor on mobile/touch devices */
+@media (hover: none) {
+  .custom-cursor,
+  .custom-cursor-dot {
+    @apply hidden;
+  }
+  
+  body,
+  a,
+  button,
+  input,
+  textarea,
+  select {
+    cursor: auto;
+  }
+}
