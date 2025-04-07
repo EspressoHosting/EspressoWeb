@@ -5,8 +5,8 @@ const founders = [
   {
     name: 'Matei',
     title: 'Lead Developer & Founder',
-    description: 'The driving force behind Espresso Hosting\'s technical excellence. Matei, the lead developer and creator of this very site, ensures our platform is built on robust and scalable foundations, delivering top-tier performance and reliability.',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop',
+    description: 'The visionary behind Espresso Hosting\'s success story. Matei, the lead developer and founder, brings a wealth of experience and a passion for innovation to the table. With a keen eye for detail and a commitment to excellence, Matei ensures our platform is not just functional but also user-friendly and aesthetically pleasing.',
+    image: 'https://cdn.discordapp.com/avatars/784443338627612673/ece15e450a7e1b6cc644fe819c1e72f6?size=1024',
     icon: <Code className="w-6 h-6" />,
     link: 'https://devmatei.is-a.dev'
   },
@@ -14,15 +14,15 @@ const founders = [
     name: 'Krishna',
     title: 'VPS Magician & Founder',
     description: 'Our resident VPS expert, Krishna possesses a deep understanding of server infrastructure and virtualization technologies. With a focus on optimization and security, Krishna ensures our game servers are finely tuned for peak performance and protected around the clock.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop',
+    image: 'https://cdn.discordapp.com/avatars/1329892250494308372/a_cc92dcabd8013f64d3cff3652bc8bdec?size=1024',
     icon: <Database className="w-6 h-6" />
   },
   {
     name: 'Devyanashu',
     title: 'Lead Developer & Founder',
-    description: 'The visionary behind Espresso Hosting\'s success story. Devyanashu, the lead developer and founder, brings a wealth of experience and a passion for innovation to the table. With a keen eye for detail and a commitment to excellence, Devyanashu ensures our platform is not just functional but also user-friendly and aesthetically pleasing.',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop',
-    icon: <Scale className="w-6 h-6" />
+    description: 'The driving force behind Espresso Hosting\'s technical excellence. Devyanashu, the lead developer and creator of this very site, ensures our platform is built on robust and scalable foundations, delivering top-tier performance and reliability.',
+    image: 'https://cdn.discordapp.com/avatars/1268498855083638828/a_63b1c5a96e89ad160d89a4140d040cf7?size=1024',
+    icon: <Code className="w-6 h-6" />
   }
 ];
 
