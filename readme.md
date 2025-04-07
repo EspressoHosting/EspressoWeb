@@ -26,7 +26,7 @@ Espresso Hosting delivers lightning-fast, reliable game server hosting strategic
 - ⚛️ [React](https://reactjs.org/) – UI Library
 - 🎨 [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS
 - 🎞️ [Framer Motion](https://www.framer.com/motion/) – Animations
-- 🛠️ Deployed via [Netlify](https://netifly.app/)
+- 🛠️ Deployed via [Netlify](https://www.netlify.com/) [![Netlify Status](https://api.netlify.com/api/v1/badges/9cefe285-8e31-4398-bb55-b49f98761774/deploy-status)](https://app.netlify.com/sites/espressohost/deploys)
 
 ---
 
@@ -35,7 +35,7 @@ Espresso Hosting delivers lightning-fast, reliable game server hosting strategic
 ### Matei (aka. DevMatei)
 
 - 🌐 [Website](https://devmatei.is-a.dev)
-- 🐦 [Twitter]- 🐦 [Twitter](https://x.com/TheDevMatei)
+- 🐦 [Twitter](https://x.com/TheDevMatei)
 - 📧 [Email](mailto:contact@devmatei.is-a.dev)
 
 
