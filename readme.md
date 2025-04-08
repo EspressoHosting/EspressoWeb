@@ -17,7 +17,7 @@ Espresso Hosting delivers lightning-fast, reliable game server hosting strategic
 
 ## 🌐 Live Preview
 
-> Coming soon...
+> https://espressohost.xyz/
 
 ---
 
