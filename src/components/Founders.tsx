@@ -12,15 +12,15 @@ const founders = [
   },
   {
     name: 'Krishna',
-    title: 'VPS Magician & Founder',
-    description: 'Our resident VPS expert, Krishna possesses a deep understanding of server infrastructure and virtualization technologies. With a focus on optimization and security, Krishna ensures our game servers are finely tuned for peak performance and protected around the clock.',
+    title: 'VPS Manager & Investor & Founder',
+    description: 'As our dedicated VPS manager and key investor, Krishna plays a vital role in overseeing our server infrastructure and business growth. His strategic investments and expertise in managing virtual private servers ensure our hosting services maintain the highest standards of reliability and performance.',
     image: 'https://cdn.discordapp.com/avatars/1329892250494308372/a_cc92dcabd8013f64d3cff3652bc8bdec?size=1024',
     icon: <Database className="w-6 h-6" />
   },
   {
-    name: 'Devyanashu',
+    name: 'Divyanshu',
     title: 'Lead Developer & Founder',
-    description: 'The driving force behind Espresso Hosting\'s technical excellence. Devyanashu, the lead developer and creator of this very site, ensures our platform is built on robust and scalable foundations, delivering top-tier performance and reliability.',
+    description: 'A backend virtuoso and the architectural mastermind of Espresso Hosting. Divyanshu, the lead developer and founder, specializes in building robust server infrastructures and optimizing database performance, ensuring our platform operates with maximum efficiency and scalability.',
     image: 'https://cdn.discordapp.com/avatars/1268498855083638828/a_63b1c5a96e89ad160d89a4140d040cf7?size=1024',
     icon: <Code className="w-6 h-6" />
   }
