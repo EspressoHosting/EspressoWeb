@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#d2bab0">
-  <path d="M8 10v12c0 2.2 1.8 4 4 4h8c2.2 0 4-1.8 4-4v-12h-16zm16 3v9c0 1.1-0.9 2-2 2h-8c-1.1 0-2-0.9-2-2v-9h12z"/>
-  <path d="M25 10h2c1.1 0 2 0.9 2 2v3c0 1.1-0.9 2-2 2h-2v-7z"/>
-  <path d="M11 6h10v4h-10z"/>
-  <path d="M22 3c0 0-1-1-6-1s-6 1-6 1l1 3h10l1-3z"/>
-  <!-- Steam -->
-  <path d="M14 3c0 0 1-2 3-2s3 2 3 2" fill="none" stroke="#d2bab0" stroke-width="1" stroke-linecap="round"/>
-  <path d="M16 1c0 0 1-1 2 0" fill="none" stroke="#d2bab0" stroke-width="1" stroke-linecap="round"/>
-</svg>
