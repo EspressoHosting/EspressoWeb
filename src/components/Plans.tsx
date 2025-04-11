@@ -9,7 +9,7 @@ const plans = [
     features: [
       '2 GB RAM',
       '1vcore',
-      '15gb nvme',
+      '20gb nvme',
       '10 Player Slots',
       'DDoS Protection',
       '24/7 Support (Discord)'
@@ -22,7 +22,7 @@ const plans = [
     features: [
       '4 GB RAM',
       '2vcore',
-      '30gb nvme',
+      '40gb nvme',
       '25 Player Slots',
       'DDoS Protection',
       '24/7 Priority Support'
@@ -35,8 +35,8 @@ const plans = [
     price: '€9.99',
     features: [
       '8 GB RAM',
-      '3vcore',
-      '50 GB SSD',
+      '5vcore',
+      '60 GB SSD',
       '50 Player Slots',
       'DDoS Protection',
       '24/7 VIP Support'
@@ -128,6 +128,22 @@ export function Plans() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mt-12"
+        >
+          <motion.a
+            href="/all-plans"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-brown-600 to-brown-700 text-white font-medium hover:shadow-lg hover:shadow-brown-600/20 transition-all"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            View More Plans
+          </motion.a>
+        </motion.div>
       </div>
     </section>
   );

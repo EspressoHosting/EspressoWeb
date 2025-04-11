@@ -9,6 +9,8 @@ import { CustomCursor } from './components/CustomCursor';
 import { TermsOfService } from './components/TermsOfService';
 import { PrivacyPolicy } from './components/PrivacyPolicy';
 import { RefundPolicy } from './components/RefundPolicy';
+import { AllPlans } from './components/AllPlans';
+import { NotFoundPage } from './components/NotFoundPage';
 
 function HomePage() {
   return (
@@ -35,7 +37,10 @@ function App() {
           <Route path="/terms" element={<TermsOfService />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/refund" element={<RefundPolicy />} />
-        </Routes>
+          <Route path="/all-plans" element={<AllPlans />} />
+          <Route path="*" element={<NotFoundPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+</Routes>
         <Footer />
       </div>
     </Router>
