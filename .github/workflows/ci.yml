@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main, dev]
+  push:
+    branches: [main, dev]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: Verify project framework (Vite enforced)
+        run: |
+          if ! grep -q '"vite"' package.json; then
+            echo "❌ ERROR: This project must remain a Vite project. Framework changes are not allowed."
+            exit 1
+          fi
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run linter (ESLint)
+        run: npm run lint
+
+      - name: Run type-check (tsc)
+        run: npm run type-check
+
+      - name: Run Vite build
+        run: npm run build
