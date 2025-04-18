@@ -8,7 +8,7 @@ const gameCategories = [
     plans: [
       {
         name: 'The Single Shot',
-        price: '€3.99',
+        price: 'Coming Soon',
         features: [
           '2 GB RAM',
           '1vcore',
@@ -21,7 +21,7 @@ const gameCategories = [
       },
       {
         name: 'The Double Shot',
-        price: '€5.99',
+        price: 'Coming Soon',
         features: [
           '4 GB RAM',
           '2vcore',
@@ -35,7 +35,7 @@ const gameCategories = [
       },
       {
         name: 'The Latte',
-        price: '€9.99',
+        price: 'Coming Soon',
         features: [
           '8 GB RAM',
           '5vcore',
@@ -53,7 +53,7 @@ const gameCategories = [
     plans: [
       {
         name: 'Espresso Shot',
-        price: '€4.99',
+        price: 'Coming Soon',
         features: [
           '1 GB RAM',
           '1vcore',
@@ -68,7 +68,7 @@ const gameCategories = [
       },
       {
         name: 'Cappuccino',
-        price: '€7.99',
+        price: 'Coming Soon',
         features: [
           '2 GB RAM',
           '2vcore',
@@ -84,7 +84,7 @@ const gameCategories = [
       },
       {
         name: 'Mocha Latte',
-        price: '€10.99',
+        price: 'Coming Soon',
         features: [
           '4 GB RAM',
           '3vcore',
@@ -104,7 +104,7 @@ const gameCategories = [
     plans: [
       {
         name: 'Macchiato',
-        price: '€5.99',
+        price: 'Coming Soon',
         features: [
           '1 GB RAM',
           '1vcore',
@@ -116,7 +116,7 @@ const gameCategories = [
       },
       {
         name: 'Flat White',
-        price: '€8.99',
+        price: 'Coming Soon',
         features: [
           '2 GB RAM',
           '2vcore',
@@ -128,7 +128,7 @@ const gameCategories = [
       },
       {
         name: 'Affogato',
-        price: '€12.99',
+        price: 'Coming Soon',
         features: [
           '4 GB RAM',
           '3vcore',

@@ -5,7 +5,7 @@ import { useState } from 'react';
 const plans = [
   {
     name: 'The Single Shot',
-    price: '€3.99',
+    price: 'Coming Soon',
     features: [
       '2 GB RAM',
       '1vcore',
@@ -18,7 +18,7 @@ const plans = [
   },
   {
     name: 'The Double Shot',
-    price: '€5.99',
+    price: 'Coming Soon',
     features: [
       '4 GB RAM',
       '2vcore',
@@ -32,7 +32,7 @@ const plans = [
   },
   {
     name: 'The Latte',
-    price: '€9.99',
+    price: 'Coming Soon',
     features: [
       '8 GB RAM',
       '5vcore',
