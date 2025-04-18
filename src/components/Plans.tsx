@@ -114,17 +114,18 @@ export function Plans() {
                 ))}
               </ul>
 
-              <motion.button
+              <motion.a
+                href="/payment"
                 className={`w-full py-3 rounded-lg ${
                   plan.popular
                     ? 'bg-gradient-to-r from-brown-600 to-brown-700 text-white hover:shadow-lg hover:shadow-brown-600/20'
                     : 'border border-brown-400 text-brown-400 hover:bg-brown-400/10'
-                } font-medium transition-all`}
+                } font-medium transition-all text-center block`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 Select Plan
-              </motion.button>
+              </motion.a>
             </motion.div>
           ))}
         </div>

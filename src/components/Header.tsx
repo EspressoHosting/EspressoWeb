@@ -46,7 +46,7 @@ export function Header() {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="/panel"
+            href="https://panel.espressohost.xyz"
             className="px-4 py-2 rounded-lg border border-brown-400 text-brown-400 font-medium hover:bg-brown-400/10 transition-colors"
           >
             Panel

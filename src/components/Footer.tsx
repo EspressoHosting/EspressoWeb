@@ -27,7 +27,7 @@ export function Footer() {
               <li><a href="#plans" className="text-neutral-400 hover:text-brown-400 transition-colors">Plans</a></li>
               <li><a href="#features" className="text-neutral-400 hover:text-brown-400 transition-colors">Features</a></li>
               <li><a href="#founders" className="text-neutral-400 hover:text-brown-400 transition-colors">About Us</a></li>
-              <li><a href="/panel" className="text-neutral-400 hover:text-brown-400 transition-colors">Control Panel</a></li>
+              <li><a href="https://panel.espressohost.xyz" className="text-neutral-400 hover:text-brown-400 transition-colors">Control Panel</a></li>
             </ul>
           </div>
 

@@ -11,6 +11,7 @@ import { PrivacyPolicy } from './components/PrivacyPolicy';
 import { RefundPolicy } from './components/RefundPolicy';
 import { AllPlans } from './components/AllPlans';
 import { NotFoundPage } from './components/NotFoundPage';
+import { PaymentProcessing } from './components/PaymentProcessing';
 
 function HomePage() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/refund" element={<RefundPolicy />} />
           <Route path="/all-plans" element={<AllPlans />} />
+          <Route path="/payment" element={<PaymentProcessing />} />
           <Route path="*" element={<NotFoundPage />} />
         <Route path="*" element={<NotFoundPage />} />
 </Routes>
