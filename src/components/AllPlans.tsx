@@ -8,44 +8,44 @@ const gameCategories = [
     plans: [
       {
         name: 'The Single Shot',
-        price: '€3.99',
-        discountedPrice: '€3.59',
+        price: '€2.99',
+        discountedPrice: '€2.69',
         features: [
           '2 GB RAM',
-          '1vcore',
-          '20gb nvme',
+          '1 vCPU',
+          '20GB NVMe SSD',
           '10 Player Slots',
           'DDoS Protection',
-          '24/7 Support (Discord)'
+          'Community Support (Discord)'
         ],
         icon: <Gamepad className="w-6 h-6" />
       },
       {
         name: 'The Double Shot',
-        price: '€5.99',
-        discountedPrice: '€5.39',
+        price: '€4.99',
+        discountedPrice: '€4.49',
         features: [
           '4 GB RAM',
-          '2vcore',
-          '40gb nvme',
-          '25 Player Slots',
+          '2 vCPU',
+          '40GB NVMe SSD',
+          '20 Player Slots',
           'DDoS Protection',
-          '24/7 Priority Support'
+          'Priority Support'
         ],
         icon: <Server className="w-6 h-6" />,
         popular: true
       },
       {
         name: 'The Latte',
-        price: '€9.99',
-        discountedPrice: '€8.99',
+        price: '€8.99',
+        discountedPrice: '€8.09',
         features: [
           '8 GB RAM',
-          '5vcore',
-          '60 GB SSD',
-          '50 Player Slots',
+          '4 vCPU',
+          '60GB NVMe SSD',
+          '40 Player Slots',
           'DDoS Protection',
-          '24/7 VIP Support'
+          'VIP Support'
         ],
         icon: <Cpu className="w-6 h-6" />
       }
@@ -56,50 +56,41 @@ const gameCategories = [
     plans: [
       {
         name: 'Espresso Shot',
-        price: '€4.99',
-        discountedPrice: '€4.49',
+        price: '€1.99',
+        discountedPrice: '€1.79',
         features: [
           '1 GB RAM',
-          '1vcore',
-          '20gb SSD',
-          '3 Concurrent Bots',
-          'API Rate Limit Handling',
-          '99.9% Uptime',
-          'Python 3.11+ Support',
-          'Basic Support'
+          '1 vCPU',
+          '10GB SSD',
+          '99.5% Uptime',
+          'Community Support'
         ],
         icon: <CoffeeIcon className="w-6 h-6" />
       },
       {
         name: 'Cappuccino',
-        price: '€7.99',
-        discountedPrice: '€7.19',
+        price: '€3.99',
+        discountedPrice: '€3.59',
         features: [
           '2 GB RAM',
-          '2vcore',
-          '40gb SSD',
-          '10 Concurrent Bots',
-          'Database Integration',
-          'Advanced Monitoring',
-          'Priority Queue',
-          '24/7 Support'
+          '1 vCPU',
+          '20GB SSD',
+          '99.5% Uptime',
+          'Email Support (matei@espressohost.xyz or dm on discord devmatei)'
         ],
         icon: <CoffeeIcon className="w-6 h-6" />,
         popular: true
       },
       {
         name: 'Mocha Latte',
-        price: '€10.99',
-        discountedPrice: '€9.89',
+        price: '€6.99',
+        discountedPrice: '€6.29',
         features: [
           '4 GB RAM',
-          '3vcore',
-          '80gb SSD',
-          '25 Concurrent Bots',
-          'Auto-scaling',
-          'Dedicated IP',
-          'Webhook Support',
-          'VIP Support'
+          '2 vCPU',
+          '40GB SSD',
+          '99.5% Uptime',
+          'Priority Support'
         ],
         icon: <CoffeeIcon className="w-6 h-6" />
       }
@@ -110,40 +101,44 @@ const gameCategories = [
     plans: [
       {
         name: 'Macchiato',
-        price: '€1.99',
-        discountedPrice: '€1.49',
+        price: '€1.49',
+        discountedPrice: '€1.34',
         features: [
           '1 GB RAM',
-          '1vcore',
-          '20gb SSD',
+          '1 vCPU',
+          '10GB SSD',
           'Node.js 20+',
-          '24/7 Support'
+          '99.5% Uptime',
+          'Community Support'
         ],
         icon: <CoffeeIcon className="w-6 h-6" />
       },
       {
         name: 'Flat White',
         price: '€2.99',
-        discountedPrice: '€2.49',
+        discountedPrice: '€2.69',
         features: [
           '2 GB RAM',
-          '2vcore',
-          '40gb SSD',
+          '1 vCPU',
+          '20GB SSD',
           'Node.js 20+',
-          'Priority 24/7 Support'
+          '99.5% Uptime',
+          'Email Support (matei@espressohost.xyz or dm on discord devmatei)'
         ],
         icon: <CoffeeIcon className="w-6 h-6" />,
         popular: true
       },
       {
         name: 'Affogato',
-        price: '€3.99',
-        discountedPrice: '€2.99',
+        price: '€4.99',
+        discountedPrice: '€4.49',
         features: [
-          '4 GB RAM',
-          '3vcore',
-          '80gb SSD',
-          '24/7 Support'
+          '3 GB RAM',
+          '2 vCPU',
+          '30GB SSD',
+          'Node.js 20+',
+          '99.5% Uptime',
+          'Priority Support'
         ],
         icon: <CoffeeIcon className="w-6 h-6" />
       }
