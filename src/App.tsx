@@ -16,12 +16,10 @@ import { PaymentProcessing } from './components/PaymentProcessing';
 function HomePage() {
   return (
     <>
-      <main>
-        <Hero />
-        <Plans />
-        <Features />
-        <Founders />
-      </main>
+      <Hero />
+      <Plans />
+      <Features />
+      <Founders />
     </>
   );
 }
@@ -33,16 +31,17 @@ function App() {
         <div className="fixed inset-0 bg-gradient-radial from-brown-600/10 via-transparent to-transparent pointer-events-none" />
         <CustomCursor />
         <Header />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/terms" element={<TermsOfService />} />
-          <Route path="/privacy" element={<PrivacyPolicy />} />
-          <Route path="/refund" element={<RefundPolicy />} />
-          <Route path="/all-plans" element={<AllPlans />} />
-          <Route path="/payment" element={<PaymentProcessing />} />
-          <Route path="*" element={<NotFoundPage />} />
-        <Route path="*" element={<NotFoundPage />} />
-</Routes>
+        <main className="pt-20"> {/* Added padding-top for header */}
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/refund" element={<RefundPolicy />} />
+            <Route path="/all-plans" element={<AllPlans />} />
+            <Route path="/payment" element={<PaymentProcessing />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </Router>

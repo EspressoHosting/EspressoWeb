@@ -3,7 +3,7 @@ import { Mail, MessageCircle } from 'lucide-react';
 
 export function PaymentProcessing() {
   return (
-    <div className="min-h-screen bg-dark-200 py-24">
+    <div className="min-h-screen bg-dark-200 pt-36 pb-24">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

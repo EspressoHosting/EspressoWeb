@@ -4,7 +4,7 @@ import { ScrollReveal } from './ScrollReveal';
 
 export function Hero() {
   return (
-    <section className="min-h-screen pt-24 pb-16 relative overflow-hidden bg-gradient-to-b from-dark-200 to-dark-100">
+    <section className="min-h-screen pt-36 pb-16 relative overflow-hidden bg-gradient-to-b from-dark-200 to-dark-100">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(161,128,114,0.15),rgba(0,0,0,0))]" />
         

@@ -110,8 +110,8 @@ const gameCategories = [
     plans: [
       {
         name: 'Macchiato',
-        price: '€5.99',
-        discountedPrice: '€5.39',
+        price: '€1.99',
+        discountedPrice: '€1.49',
         features: [
           '1 GB RAM',
           '1vcore',
@@ -123,12 +123,13 @@ const gameCategories = [
       },
       {
         name: 'Flat White',
-        price: '€8.99',
-        discountedPrice: '€8.09',
+        price: '€2.99',
+        discountedPrice: '€2.49',
         features: [
           '2 GB RAM',
           '2vcore',
           '40gb SSD',
+          'Node.js 20+',
           'Priority 24/7 Support'
         ],
         icon: <CoffeeIcon className="w-6 h-6" />,
@@ -136,8 +137,8 @@ const gameCategories = [
       },
       {
         name: 'Affogato',
-        price: '€12.99',
-        discountedPrice: '€11.69',
+        price: '€3.99',
+        discountedPrice: '€2.99',
         features: [
           '4 GB RAM',
           '3vcore',

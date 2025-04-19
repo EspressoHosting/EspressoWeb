@@ -3,7 +3,7 @@ import { Coffee, Tag } from 'lucide-react';
 
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-dark-200/80 backdrop-blur-md border-b border-dark-300">
+    <header className="fixed top-0 w-full bg-dark-100 border-b border-dark-300 z-50">
       {/* Promotional Banner */}
       <motion.div 
         className="bg-gradient-to-r from-brown-700 to-brown-600 py-3 text-white text-center font-medium shadow-lg"
