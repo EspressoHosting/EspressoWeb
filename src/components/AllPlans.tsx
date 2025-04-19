@@ -8,7 +8,8 @@ const gameCategories = [
     plans: [
       {
         name: 'The Single Shot',
-        price: 'Coming Soon',
+        price: '€3.99',
+        discountedPrice: '€3.59',
         features: [
           '2 GB RAM',
           '1vcore',
@@ -21,7 +22,8 @@ const gameCategories = [
       },
       {
         name: 'The Double Shot',
-        price: 'Coming Soon',
+        price: '€5.99',
+        discountedPrice: '€5.39',
         features: [
           '4 GB RAM',
           '2vcore',
@@ -35,7 +37,8 @@ const gameCategories = [
       },
       {
         name: 'The Latte',
-        price: 'Coming Soon',
+        price: '€9.99',
+        discountedPrice: '€8.99',
         features: [
           '8 GB RAM',
           '5vcore',
@@ -53,7 +56,8 @@ const gameCategories = [
     plans: [
       {
         name: 'Espresso Shot',
-        price: 'Coming Soon',
+        price: '€4.99',
+        discountedPrice: '€4.49',
         features: [
           '1 GB RAM',
           '1vcore',
@@ -68,7 +72,8 @@ const gameCategories = [
       },
       {
         name: 'Cappuccino',
-        price: 'Coming Soon',
+        price: '€7.99',
+        discountedPrice: '€7.19',
         features: [
           '2 GB RAM',
           '2vcore',
@@ -84,7 +89,8 @@ const gameCategories = [
       },
       {
         name: 'Mocha Latte',
-        price: 'Coming Soon',
+        price: '€10.99',
+        discountedPrice: '€9.89',
         features: [
           '4 GB RAM',
           '3vcore',
@@ -104,7 +110,8 @@ const gameCategories = [
     plans: [
       {
         name: 'Macchiato',
-        price: 'Coming Soon',
+        price: '€5.99',
+        discountedPrice: '€5.39',
         features: [
           '1 GB RAM',
           '1vcore',
@@ -116,7 +123,8 @@ const gameCategories = [
       },
       {
         name: 'Flat White',
-        price: 'Coming Soon',
+        price: '€8.99',
+        discountedPrice: '€8.09',
         features: [
           '2 GB RAM',
           '2vcore',
@@ -128,7 +136,8 @@ const gameCategories = [
       },
       {
         name: 'Affogato',
-        price: 'Coming Soon',
+        price: '€12.99',
+        discountedPrice: '€11.69',
         features: [
           '4 GB RAM',
           '3vcore',
@@ -140,6 +149,7 @@ const gameCategories = [
     ]
   }
 ];
+
 
 export function AllPlans() {
   const [hoveredPlan, setHoveredPlan] = useState<{category: number, plan: number} | null>(null);
@@ -201,7 +211,14 @@ export function AllPlans() {
                   </motion.div>
 
                   <h3 className="text-2xl font-bold text-white text-center mb-2">{plan.name}</h3>
-                  <p className="text-3xl font-bold text-brown-400 text-center mb-6">{plan.price}<span className="text-sm text-neutral-400">/month</span></p>
+                  <div className="text-center mb-6">
+                <p className="text-3xl font-bold text-brown-400">
+                  <span className="line-through text-neutral-500">{plan.price}</span>
+                  <span className="ml-2">{plan.discountedPrice}</span>
+                  <span className="text-sm text-neutral-400">/month</span>
+                </p>
+                <p className="text-sm text-green-400 mt-1">10% OFF</p>
+              </div>
 
                   <ul className="space-y-4 mb-8">
                     {plan.features.map((feature, i) => (
